@@ -1,25 +1,35 @@
-<nav mat-tab-nav-bar
-  headerPosition="below"
-  animationDuration="0ms"
-  mat-align-tabs="center"
-  mat-stretch-tabs
-  class="footer mat-elevation-z4">
-    <a mat-tab-link
+<div class="container">
+  <nav
+    mat-tab-nav-bar
+    headerPosition="below"
+    animationDuration="0ms"
+    mat-align-tabs="center"
+    mat-stretch-tabs
+    class="footer mat-elevation-z4"
+  >
+    <a
+      mat-tab-link
       (click)="activeLink = links[0]"
       [active]="activeLink == links[0]"
-      routerLink="/">
+      routerLink="/"
+    >
       <mat-icon aria-hidden="false" aria-label="Home">home</mat-icon>
     </a>
-    <a mat-tab-link
+    <a
+      mat-tab-link
       (click)="activeLink = links[1]"
       [active]="activeLink == links[1]"
-      routerLink="/reco">
+      routerLink="/reco"
+    >
       <mat-icon aria-hidden="false" aria-label="Assistant">assistant</mat-icon>
     </a>
-    <a mat-tab-link
+    <a
+      mat-tab-link
       (click)="activeLink = links[2]"
       [active]="activeLink == links[2]"
-      routerLink="/profile">
+      routerLink="/profile"
+    >
       <mat-icon aria-hidden="false" aria-label="Person">person</mat-icon>
     </a>
-</nav>
+  </nav>
+</div>

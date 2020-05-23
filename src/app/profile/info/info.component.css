@@ -1,0 +1,39 @@
+.row {
+  border-bottom: 1px solid black;
+}
+
+.row1 {
+  height: 72px;
+}
+
+.row2 {
+  height: 32px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.edit {
+  text-decoration: underline;
+}
+
+.wrap_top {
+  top: 35%;
+}
+
+.wrap_top_img {
+  top: 14%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-height: 50px;
+}
+
+.img-border {
+  border: 1px solid black;
+  border-radius: 500px;
+}

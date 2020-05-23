@@ -1,0 +1,12 @@
+.btn-group,
+.btn-group-vertical {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  max-height: 32px;
+}
+.btn-danger {
+  color: red;
+  background-color: #ffffff;
+  border-color: #dc3545;
+}

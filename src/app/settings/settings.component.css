@@ -1,0 +1,15 @@
+.left {
+  text-align: left;
+}
+.bold {
+  font-weight: 700;
+}
+.right {
+  text-align: right;
+}
+.container {
+  min-width: 100px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid black;
+}
