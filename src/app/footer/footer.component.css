@@ -1,5 +1,12 @@
 .footer {
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  background-color: white;
+}
+a:active {
+  color: #34ba96;
+}
+a:hover {
+  color: #34ba96;
 }

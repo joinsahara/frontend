@@ -19,6 +19,7 @@ import { ErrorComponent } from './error/error.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { PostsModule } from './posts/posts.module';
 import { from } from 'rxjs';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 import { AryanComponent } from './aryan/aryan.component';
 import { MypurchaseComponent } from './mypurchase/mypurchase.component';
 import { LogoutComponent } from './logout/logout.component';
@@ -28,6 +29,8 @@ import { SelectorComponent } from './selector/selector.component';
 import { SelectorDimensionComponent } from './selector/selector-dimension/selector-dimension.component';
 import { FigureComponent } from './selector/figure/figure.component';
 import { SelectorUnitComponent } from './selector/selector-unit/selector-unit.component';
+import { SearchBarComponent } from './recommendations/search-bar/search-bar.component';
+import { ResultComponent } from './recommendations/result/result.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +52,8 @@ import { SelectorUnitComponent } from './selector/selector-unit/selector-unit.co
     SelectorDimensionComponent,
     FigureComponent,
     SelectorUnitComponent,
+    SearchBarComponent,
+    ResultComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +62,15 @@ import { SelectorUnitComponent } from './selector/selector-unit/selector-unit.co
     HttpClientModule,
     AngularMaterialModule,
     PostsModule,
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: '#78C000',
+      innerStrokeColor: '#C7E596',
+      animationDuration: 300,
+    }),
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },

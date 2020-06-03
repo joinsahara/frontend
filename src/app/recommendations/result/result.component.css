@@ -1,0 +1,105 @@
+.container {
+  width: 298px;
+  height: 81px;
+  background-color: white;
+  margin: 2%;
+  border-radius: 3px;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.info {
+  position: relative;
+  width: 210px;
+  left: 1.9%;
+  right: 70.16%;
+  top: 16.74%;
+  bottom: 66.32%;
+}
+img {
+  width: 88px;
+  height: 81px;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.dress-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  /* or 120% */
+  line-height: 12px;
+  margin-top: 5px;
+  letter-spacing: 0.02em;
+
+  color: #3e3e3e;
+}
+
+.company-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #898989;
+}
+.price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #3451ba;
+}
+.bottom {
+  position: absolute;
+  top: 74%;
+  width: 100%;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 1.5px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+  top: -35px;
+  right: -20px;
+}
+.rating-number {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 12px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: right; */
+  letter-spacing: 0.02em;
+  color: #898989;
+  margin-left: 5px;
+}
