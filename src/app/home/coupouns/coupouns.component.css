@@ -1,0 +1,47 @@
+.container {
+  padding-left: 25px;
+  background-color: white;
+  padding-top: 5px;
+  margin-top: 2px;
+}
+.container:hover {
+  text-decoration: underline;
+}
+.row {
+  height: 32px;
+  width: 294px;
+  border-radius: 3px;
+  background-color: white;
+  vertical-align: middle;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.button-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  position: absolute;
+  left: 40px;
+  /* identical to box height, or 86% */
+
+  letter-spacing: 0.02em;
+
+  color: #3e3e3e;
+}
+
+.sale {
+  position: absolute;
+  left: 10px;
+}
+.col-12 {
+  vertical-align: middle;
+  text-align: center;
+}
+.arrow {
+  position: absolute;
+  left: 289px;
+}

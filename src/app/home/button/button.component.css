@@ -1,0 +1,35 @@
+.container {
+  padding-left: 25px;
+  background-color: white;
+}
+
+.row {
+  height: 32px;
+  width: 294px;
+  border-radius: 3px;
+  background-color: #34ba96;
+  vertical-align: middle;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.button-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.col-12 {
+  vertical-align: middle;
+  text-align: center;
+}
+.arrow {
+  left: 289px;
+}

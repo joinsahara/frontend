@@ -31,6 +31,12 @@ import { FigureComponent } from './selector/figure/figure.component';
 import { SelectorUnitComponent } from './selector/selector-unit/selector-unit.component';
 import { SearchBarComponent } from './recommendations/search-bar/search-bar.component';
 import { ResultComponent } from './recommendations/result/result.component';
+import { ScoresComponent } from './home/scores/scores.component';
+import { ButtonComponent } from './home/button/button.component';
+import { ShippingPolicyComponent } from './home/shipping-policy/shipping-policy.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
+import { CoupounsComponent } from './home/coupouns/coupouns.component';
+import { CarouselResultComponent } from './home/carousel/carousel-result/carousel-result.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +60,12 @@ import { ResultComponent } from './recommendations/result/result.component';
     SelectorUnitComponent,
     SearchBarComponent,
     ResultComponent,
+    ScoresComponent,
+    ButtonComponent,
+    ShippingPolicyComponent,
+    CarouselComponent,
+    CoupounsComponent,
+    CarouselResultComponent,
   ],
   imports: [
     BrowserModule,

@@ -8,8 +8,23 @@
   text-align: right;
 }
 .container {
+  background-color: white;
   min-width: 100px;
   padding-bottom: 5px;
   padding-top: 5px;
   border-bottom: 1px solid black;
+}
+.settings {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #3e3e3e;
 }

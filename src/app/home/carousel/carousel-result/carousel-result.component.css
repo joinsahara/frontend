@@ -1,0 +1,51 @@
+.container {
+  height: 150px;
+  box-shadow: grey 0.5px 0.5px 3.5px 0.5px;
+}
+.name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 8px;
+  /* or 114% */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+img {
+  width: 100%;
+  height: 100px;
+  box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.15);
+}
+.col-12 {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 8px;
+  /* identical to box height, or 114% */
+
+  letter-spacing: 0.02em;
+
+  color: #3451ba;
+}
+.company {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 8px;
+  /* identical to box height, or 114% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  color: #898989;
+}
