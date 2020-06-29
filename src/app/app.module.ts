@@ -37,6 +37,8 @@ import { ShippingPolicyComponent } from './home/shipping-policy/shipping-policy.
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { CoupounsComponent } from './home/coupouns/coupouns.component';
 import { CarouselResultComponent } from './home/carousel/carousel-result/carousel-result.component';
+import { PurchasesComponent } from './purchases/purchases.component';
+import { RecordComponent } from './purchases/record/record.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +68,8 @@ import { CarouselResultComponent } from './home/carousel/carousel-result/carouse
     CarouselComponent,
     CoupounsComponent,
     CarouselResultComponent,
+    PurchasesComponent,
+    RecordComponent,
   ],
   imports: [
     BrowserModule,
